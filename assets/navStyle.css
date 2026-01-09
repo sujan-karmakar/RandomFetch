@@ -5,7 +5,8 @@ body {
 }
 
 html {
-    overflow-y: scroll;
+    overflow: hidden;
+    background-color: #0F0F0F;
 }
 
 ::selection {
@@ -147,7 +148,7 @@ html {
     border-radius: 2px;
 }
 
-/* This class will be used by JS to disable the animation temporarily */
+
 #nav-indicator.no-transition {
     transition: none !important;
 }

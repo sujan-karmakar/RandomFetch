@@ -3,7 +3,7 @@ let para = document.querySelector("p");
 
 let url = "https://dummyjson.com/todos/random";
 
-async function getFacts() {
+async function getTask() {
     try {
         let res = await axios.get(url);
         return res.data.todo;
@@ -14,6 +14,6 @@ async function getFacts() {
 }
 
 btn.addEventListener("click", async () => {
-    let task = await getFacts();
+    let task = await getTask();
     para.innerText = task;
 });

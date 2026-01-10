@@ -5,7 +5,7 @@ let type = document.querySelector("#type");
 
 let url = "https://official-joke-api.appspot.com/random_joke";
 
-async function getFacts() {
+async function getJoke() {
     try {
         let res = await axios.get(url);
         return res;
@@ -18,7 +18,7 @@ btn.addEventListener("click", async () => {
     joke.innerText = "";
     punchline.innerText = "";
     type.innerText = "";
-    let msg = await getFacts();
+    let msg = await getJoke();
     joke.innerText = msg.data.setup;
     pLine.innerText = msg.data.punchline;
     type.innerText = `Type : ${msg.data.type}`;

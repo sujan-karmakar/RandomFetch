@@ -44,7 +44,19 @@
         <div id="content"></div>
     </div>
 
-    <script src="../assets/navScript.js"></script>
-    <script src="app.js"></script>
+	<div class="box-container">
+		<div class="box">
+			<button>Show New Joke</button>
+			<div class="content-container">
+				<p id="joke"></p>
+				<p id="punchline" style="height: 1rem;"></p>
+				<p id="type" style="opacity: 5;"></p>
+			</div>
+		</div>
+	</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.13.2/dist/axios.min.js"></script>
+	<script src="../assets/navScript.js"></script>
+	<script src="app.js"></script>
 </body>
 </html>

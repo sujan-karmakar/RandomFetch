@@ -13,9 +13,9 @@ body {
 }
 
 .box {
-    height: 25rem;
-    width: 90%;
-    max-width: 20rem;
+    height: 28rem;
+    width: 50rem;
+    max-width: 30rem;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -70,4 +70,10 @@ button:hover {
     overflow: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;
+}
+
+@media (max-width: 768px) {
+    .box {
+        width: 90%;
+    }
 }

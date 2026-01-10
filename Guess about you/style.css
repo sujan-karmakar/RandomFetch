@@ -4,6 +4,13 @@ html {
     overflow-y: auto !important;
 }
 
+h1 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 10px rgba(0, 255, 157, 0.3);
+}
+
 .guess-container {
     width: 100%;
     display: flex;

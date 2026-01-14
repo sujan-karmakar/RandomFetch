@@ -15,7 +15,7 @@
   3. Jokes - https://official-joke-api.appspot.com/random_joke
   4. Tasks - https://dummyjson.com/todos/random
   5. Quotes - https://dummyjson.com/quotes/random
-  6. 8. Nationality Guessing API - https://api.nationalize.io?name=
+  6. Nationality Guessing API - https://api.nationalize.io?name=
   7. Age Guessing API - https://api.agify.io?name=
   8. Gender Guessing API - https://api.genderize.io?name=
   

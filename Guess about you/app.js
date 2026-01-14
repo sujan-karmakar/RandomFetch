@@ -78,6 +78,12 @@ button.addEventListener("click", async () => {
     if(name === "") {
         alert("Cannot be empty.");
     } else {
+        agePara.innerText = "";
+        genderPara.innerText = "";
+        genderProbab.innerText = "";
+        let containerDiv = document.querySelector("#nationalityBox .nation-container");
+        containerDiv.innerHTML = "";
+        
         agePara.innerText = await ageFn(name);
 
         let genderObj = await genderFn(name);
@@ -87,7 +93,7 @@ button.addEventListener("click", async () => {
         let country = await nationFn(name);
         if (country.length > 0) {
             let containerDiv = document.querySelector("#nationalityBox .nation-container");
-            containerDiv.innerHTML = ""; // Clear existing
+            containerDiv.innerHTML = ""; 
 
             country.forEach(c => {
                 let itemDiv = document.createElement("div");

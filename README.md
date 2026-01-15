@@ -10,7 +10,7 @@
    3. JavaScript
 
 ## APIs Used :
-  1. Cat Facts - https://catfact.ninja/fact
+  1. <a href="https://catfact.ninja/fact">Cat Facts</a>
   2. Dog Images - https://dog.ceo/api/breeds/image/random
   3. Jokes - https://official-joke-api.appspot.com/random_joke
   4. Tasks - https://dummyjson.com/todos/random

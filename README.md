@@ -16,7 +16,7 @@
   4. <a href="https://dummyjson.com/todos/random">Tasks</a>
   5. <a href="https://dummyjson.com/quotes/random">Quotes</a>
   6. <a href="https://api.nationalize.io?name=">Nationality Guessing API</a>
-  7. Age Guessing API - https://api.agify.io?name=
+  7. <a href="https://api.agify.io?name=">Age Guessing API</a>
   8. Gender Guessing API - https://api.genderize.io?name=
   
 ## Deployment Link :

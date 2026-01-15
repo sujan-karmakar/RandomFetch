@@ -15,7 +15,7 @@
   3. <a href="https://official-joke-api.appspot.com/random_joke">Jokes</a>
   4. <a href="https://dummyjson.com/todos/random">Tasks</a>
   5. <a href="https://dummyjson.com/quotes/random">Quotes</a>
-  6. Nationality Guessing API - https://api.nationalize.io?name=
+  6. <a href="https://api.nationalize.io?name=">Nationality Guessing API</a>
   7. Age Guessing API - https://api.agify.io?name=
   8. Gender Guessing API - https://api.genderize.io?name=
   
